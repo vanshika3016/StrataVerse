@@ -1,20 +1,168 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# StrataVerse – Enterprise RPA Monitoring Platform
 
-# Run and deploy your AI Studio app
+## Overview
 
-This contains everything you need to run your app locally.
+StrataVerse is a high-performance Enterprise Robotic Process Automation (RPA) monitoring platform inspired by real-world operational dashboards used in large organizations. The platform simulates live automation telemetry, real-time process monitoring, custom table virtualization, operational alert management, and analytics-driven decision making at enterprise scale.
 
-View your app in AI Studio: https://ai.studio/apps/2366d4ac-d8da-4e42-879e-9dc9bc95c5b9
+The application is designed to visualize and manage 50,000+ automation processes while maintaining smooth performance through a manually implemented virtualization engine.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## Key Features
 
+### Live Operations Command Center
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* Real-time telemetry pipeline
+* Dynamic process status monitoring
+* Live operational alerts
+* Activity feed with continuously updating events
+* Enterprise-grade monitoring interface
+
+### Custom Table Virtualization
+
+* Built completely from scratch
+* No react-window
+* No react-virtualized
+* No third-party virtualization libraries
+* Supports 50,000+ records
+* Fixed row heights
+* Overscan rendering
+* Optimized DOM performance
+* Smooth scrolling experience
+
+### High-Density KPI Dashboard
+
+* Total Streamed Rows Processed
+* Active Robots Deployed
+* Global Savings Generated
+* Failed Process Tracking
+* Queue Error Monitoring
+* Paused Automation Tracking
+
+### Advanced Filtering & Search
+
+* Multi-column sorting
+* Department filtering
+* Industry filtering
+* Technology filtering
+* Global search capabilities
+
+### Analytics & Insights
+
+* Department-wise savings analysis
+* ROI distribution monitoring
+* Regional performance breakdown
+* Automation type profiling
+* Operational intelligence visualizations
+
+### Pause & Investigate Workflow
+
+* Freeze live telemetry stream
+* Capture operational state
+* Analyze current process data
+* Review project-level details
+
+---
+
+## Dataset
+
+The platform operates on a simulated enterprise automation dataset containing:
+
+* Project Information
+* Company Information
+* Automation Types
+* Deployment Statistics
+* ROI Metrics
+* Savings Data
+* Geographic Distribution
+* AI Adoption Indicators
+* Cloud Deployment Indicators
+
+The system scales the dataset to 50,000+ operational records for virtualization benchmarking and performance testing.
+
+---
+
+## Technology Stack
+
+* React
+* TypeScript
+* Vite
+* Chart.js
+* CSS
+* Custom Virtualization Engine
+
+---
+
+## Performance Highlights
+
+* 50,000+ Process Records
+* Real-Time Telemetry Updates
+* 200ms Streaming Cycle
+* Manual Virtualization
+* Low DOM Footprint
+* Optimized Rendering Pipeline
+
+---
+
+## Project Structure
+
+```text
+src/
+ ├── components/
+ ├── App.tsx
+ ├── main.tsx
+ ├── types.ts
+
+public/
+ ├── automation_projects.csv
+ ├── dataStream.js
+```
+
+---
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Build production version:
+
+```bash
+npm run build
+```
+
+---
+
+## Challenge Highlights
+
+✔ Custom Virtualization Engine
+
+✔ Real-Time Telemetry Streaming
+
+✔ Dynamic KPI Monitoring
+
+✔ Enterprise Operations Dashboard
+
+✔ Interactive Analytics
+
+✔ Large Dataset Processing
+
+✔ Performance-Focused Architecture
+
+---
+
+## Author
+
+**Vanshika Grover**
+
+B.Tech Information Technology
+Bhagwan Parshuram Institute of Technology (BPIT)
