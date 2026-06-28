@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: Enterprise RPA Monitor",
+  "description": "High-Performance Enterprise Control Terminal for monitoring and managing real-time robotic process automation telemetry with custom virtualized data grid.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
